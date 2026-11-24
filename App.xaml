@@ -1,0 +1,21 @@
+<Application x:Class="GalaxyArcadeWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="PanelBrush" Color="#0B1226" />
+        <SolidColorBrush x:Key="AccentBrush" Color="#48F2E3" />
+        <SolidColorBrush x:Key="MutedBrush" Color="#8290B5" />
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#F4F7FF" />
+            <Setter Property="Background" Value="#142344" />
+            <Setter Property="BorderBrush" Value="#30466F" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="14,11" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+    </Application.Resources>
+</Application>
